@@ -629,6 +629,7 @@ body {
   position: absolute;
   top: 25%;
   left: 50%;
+	max-width: 200px;
   transform: translate(-50%, -25%); }
   @media (min-width: 54.75em) {
     .title-container {
