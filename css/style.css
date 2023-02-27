@@ -406,10 +406,9 @@ i {
  * ----------------------------------------------------------------------------- */
 body {
   position: relative;
-  background-color: #5391fa;
+  background-color: #375171;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.25rem;
-  font-weight: 900; }
+  font-size: 1.25rem; }
 
 @media (min-width: 54.75em) {
   section {
@@ -577,16 +576,16 @@ body {
     transition: all .3s ease-in-out;
     border: 2px solid #fff;
     border-radius: 50%;
-    background-image: radial-gradient(circle, #0074d9, #004b8d);
+    background-image: radial-gradient(circle, #4794C4, #4794C4);
     color: #fff;
     line-height: 2.25em;
     text-align: center;
     text-decoration: none;
     cursor: default; }
     .circle .item--success {
-      background-image: radial-gradient(circle, #9ee379, #4caf50); }
+      background-image: radial-gradient(circle, #85DE76, #85DE76); }
     .circle .item--failure {
-      background-image: radial-gradient(circle, #b9121b, #8e001c); }
+      background-image: radial-gradient(circle, #F18E7F, #F18E7F); }
 
 .scoreboard {
   margin: 0 0 1em 2em;

@@ -2,31 +2,32 @@
 // -----------------------------------------------------------------------------
 
 var words = [
-	new Word(0, "A", "Empieza por A:", " Relato breve de un acontecimiento extraño, curioso o divertido, generalmente ocurrido a la persona que lo cuenta.", "Anecdota"),
-	new Word(1, "B", "Empieza por B:", " Pasta dulce y esponjosa, hecha con harina, huevos, levadura y otros ingredientes, que puede tener distintas formas", "Bollo"),
-	new Word(2, "C", "Empieza por C:", " Corriente de agua que cae desde cierta altura a causa de un brusco desnivel en su cauce, especialmente en un rio", "Cascada"),
-	new Word(3, "D", "Empieza por D:", " Arma blanca de hoja corta, ancha y puntiaguda, parecida a la espada pero de menor tamaño", "Daga"),
-	new Word(4, "E", "Empieza por E:", " Línea curva que describe varias vueltas alrededor de un punto, alejándose cada vez más de él", "Espiral"),
-	new Word(5, "F", "Contiene la F:", " Que está descompuesto o podrido por la acción de diversos factores y determinados microorganismos", "Putrefacto"),
-	new Word(6, "G", "Empieza por G:", " Que se comporta de manera ruda, tosca o grosera", "Garrulo"),
-	new Word(7, "H", "Contiene la H:", " Persona o animal que es grueso y de poca altura", "Rechoncho"),
-	new Word(8, "I", "Empieza por I:", " Que está en el espacio existente entre dos astros, o que tiene relación con él", "Interestelar"),
-	new Word(9, "J", "Empieza por J:", " Chile picante de unos 5 cm de largo, carnoso y de punta redonda, que se usa para condimentar ciertos guisos", "Jalapeño"),
-	new Word(10, "L", "Contiene la L:", " Hombre pequeño y débil", "Homunculo"),
-	new Word(11, "M", "Empieza por M:", " Persona que sufre o muere por defender su religión o sus ideales. ", "Martir"),
-	new Word(12, "N", "Empieza por N:", " Tubo fluorescente que produce una luz brillante.", "Neon"),
-	new Word(13, "Ñ", "Contiene la Ñ:", " Dar a una cosa un color distinto del que tiene.", "Teñir"),
-	new Word(14, "O", "Empieza por O:", " Que conoce todas las cosas reales y posibles.", "Omnisciente"),
-	new Word(15, "P", "Contiene la P:", " Calzado de lona, con suela de esparto, cáñamo o goma, que se sujeta al pie por presión o con unas cintas que se atan al tobillo.", "Alpargata"),
-	new Word(16, "Q", "Empieza por Q:", " Que se puede romper fácilmente.", "Quebradizo"),
-	new Word(17, "R", "Empieza por R:", " Operación quirúrgica para restaurar la nariz.", "Rinoplastia"),
-	new Word(18, "S", "Contiene la S:", " Falta de cuidado en la forma de vestir y en el aseo personal.", "Desaliño"),
-	new Word(19, "T", "Empieza por T:", " Persona alocada, bulliciosa y molesta.", "Tabardillo"),
-	new Word(20, "U", "Contiene la U:", " Persona que rehúye el trato de otras personas y rechaza las atenciones y muestras de cariño.", "Huraño"),
-	new Word(21, "V", "Empieza por V:", " Tributo que el vasallo pagaba a su señor o servicio que le prestaba según este vínculo.", "Vasallaje"),
-	new Word(22, "X", "Contiene la X:", " Punto culminante o de mayor satisfacción de la excitación sexual en las zonas erógenas o sexuales.", "Climax"),
-	new Word(23, "Y", "Contiene la Y:", " Toro castrado, que se utiliza como animal de tiro y del cual se aprovecha su carne.", "Buey"),
-	new Word(24, "Z", "Contiene la Z:", " Que es tonto o tiene poca rapidez mental.", "Pazguato")
+	new Word(0, "A", "Empieza por A:", " ¿Qué es la gobernanza ágil?", "Agilidad"),
+	new Word(1, "B", "Empieza por B:", " ¿Cuál es el objetivo principal de la gobernanza ágil?", "Beneficio"),
+	new Word(2, "C", "Empieza por C:", " ¿Cuáles son las principales características de la gobernanza ágil?", "Colaboración"),
+	new Word(3, "D", "Empieza por D:", " ¿Cuáles son los beneficios de la gobernanza ágil para una organización?", "Desarrollo"),
+	new Word(4, "E", "Empieza por E:", " ¿Cómo se toman las decisiones en la gobernanza ágil?", "Experimentación"),
+	new Word(5, "F", "Empieza por  F:", " ¿Cómo se asegura la transparencia en la gobernanza ágil?", "Feedback"),
+	new Word(6, "G", "Empieza por G:", " ¿Cómo se mantienen los equipos motivados en la gobernanza ágil?", "Gestión"),
+	new Word(7, "H", "Empieza por  H:", " ¿Cómo se fomenta la innovación en la gobernanza ágil?", "Horizonte"),
+	new Word(8, "I", "Empieza por I:", " ¿Cómo se asegura la responsabilidad en la gobernanza ágil?", "Integridad"),
+	new Word(9, "J", "Empieza por J:", " ¿Cómo se promueve el aprendizaje continuo en la gobernanza ágil?", "Justicia"),
+	//¿Qué papel juega la colaboración en la gobernanza ágil? - Koinonía
+	new Word(10, "L", "Empieza por  L:", " ¿Qué es la gobernanza sociocrática y cómo se relaciona con la gobernanza ágil?", "Liderazgo"),
+	new Word(11, "M", "Empieza por M:", " ¿Cómo se define el éxito en la gobernanza ágil?", "Medición"),
+	new Word(12, "N", "Empieza por N:", " ¿Cómo se garantiza la calidad en la gobernanza ágil?", "Normas"),
+	//new Word(13, "Ñ", "Empieza por  Ñ:", " Dar a una cosa un color distinto del que tiene.", "Optimización"),
+	new Word(14, "O", "Empieza por O:", " ¿Qué es el enfoque Lean en la gobernanza ágil?", "Optimización"),
+	new Word(15, "P", "Empieza por P:", " ¿Cómo se asegura la participación y el compromiso en la gobernanza ágil?", "Participación"),
+	new Word(16, "Q", "Empieza por Q:", " ¿Cómo se mide el progreso en la gobernanza ágil?", "Quantificación"),
+	new Word(17, "R", "Empieza por R:", " ¿Cómo se garantiza la seguridad de la información en la gobernanza ágil?", "Resguardo"),
+	new Word(18, "S", "Empieza por S:", " ¿Cómo se mantiene la estabilidad en la gobernanza ágil?", "Sostenibilidad"),
+	new Word(19, "T", "Empieza por T:", " ¿Cómo se fomenta la confianza en la gobernanza ágil?", "Transparencia"),
+	new Word(20, "U", "Empieza por U:", " ¿Cómo se gestionan los riesgos en la gobernanza ágil?", "Unificación"),
+	new Word(21, "V", "Empieza por V:", " ¿Cómo se definen las prioridades en la gobernanza ágil?", "Valoración"),
+	new Word(22, "X", "Empieza por X:", " ¿Cómo se fomenta la autonomía y la responsabilidad en la gobernanza ágil?", "Xenodoquia"),
+	new Word(23, "Y", "Empieza por Y:", " ¿Qué es el enfoque de la gestión visual en la gobernanza ágil?", "Yuxtaposición"),
+	new Word(24, "Z", "Empieza por Z:", " ¿Cómo se manejan los cambios en la gobernanza ágil?", "Zumbido")
 ];
 
 // Functions
@@ -100,7 +101,7 @@ function countdown() {
 function endGame() {
 	$("#js--question-controls").addClass("hidden");
 	$("#js--pa-controls").removeClass("hidden");
-	$("#js--end-title").html("Fin de partida!");
+	$("#js--end-title").html("Partida finalitzada!");
 	$("#js--end-subtitle").html(showUserScore());
 	$("#js--close").addClass("hidden")
 }
@@ -112,7 +113,7 @@ function showUserScore() {
 			counter++;
 		}
 	}
-	return "Has conseguido un total de " + counter + " aciertos.";
+	return "Has fet un total de " + counter + " encerts.";
 }
 
 
