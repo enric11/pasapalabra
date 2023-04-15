@@ -49,8 +49,17 @@ function showDefinition(pos) {
 
 var remainingWords = 25;
 
+function treureAccens(cadena) {
+  return cadena.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+}
+
 function checkAnswer(pos) {
 	var userAnswer = $("#js--user-answer").val().toLowerCase();
+	
+	userAnswer = treureAccens(userAnswer);
+	
+	userAnswer()
+	
 	if (userAnswer == words[pos].word.toLowerCase()) {
 		words[pos].correct = true;
 		$(".circle .item").eq(words[pos].idNumber).addClass("item--success");
