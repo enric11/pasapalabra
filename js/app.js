@@ -58,8 +58,6 @@ function checkAnswer(pos) {
 	
 	userAnswer = treureAccens(userAnswer);
 	
-	userAnswer()
-	
 	if (userAnswer == words[pos].word.toLowerCase()) {
 		words[pos].correct = true;
 		$(".circle .item").eq(words[pos].idNumber).addClass("item--success");
