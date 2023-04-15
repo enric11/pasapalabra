@@ -25,8 +25,8 @@ new Word(19, "U", "Amb la lletra U:", "S'encarrega de recollir tensions que no e
 new Word(20, "V", "Comença per V:", "Gracies a la governança àgil, els membres de la DSI tenim més autonomia i això millora la nostre ____ dins el grup", "visibilitat"),
 new Word(21, "Ç", "Amb la lletra Ç:", "Trobada periòdica on s'actualitzen les polítiques del cercle i ajuda a assegurar que totes les parts interessades estiguin involucrades en la presa de decisions i que cercle segueixi una direcció clara i coherent", "governança"),
 new Word(22, "Y", "Amb la lletra Y:", "valor important en la governança àgil, ja que s'espera que els membres de l'equip treballin junts de manera col·laborativa i donin suport mútuament per assolir els objectius. Això implica un enfocament en la comunicació efectiva, la transparència i la confiança", "acompanyament"),
-new Word(23, "Z", "Amb la lletra Z:", "El que fa un rol per arribar als propòsits (i responsabilitats) en la seva saviesa", "energitza")
-new Word(23, "*", "Qualsevol lletra", "Quina és la postura adequada que ha de tenir quan fas de facilitador?", "Adult")
+new Word(23, "Z", "Amb la lletra Z:", "El que fa un rol per arribar als propòsits (i responsabilitats) en la seva saviesa", "energitza"),
+new Word(23, "*", "Qualsevol lletra", "Quina és la postura adequada que ha de tenir quan fas de facilitador?", "adult")
 
 ];
 
